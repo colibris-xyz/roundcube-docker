@@ -21,7 +21,7 @@
         "pear/crypt_gpg": "1.6.4",
         "pear/net_sieve": "1.4.4",
         "masterminds/html5": "2.7.4",
-        "endroid/qr-code": "1.6.6",
+        "endroid/qr-code": "1.9.3",
         "guzzlehttp/guzzle": "6.5.5",
         "roundcube/plugin-installer": "0.2.0",
         "roundcube/carddav": "4.1.0",
