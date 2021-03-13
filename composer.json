@@ -16,7 +16,7 @@
         "php": ">=5.5.0",
         "pear/pear-core-minimal": "1.10.10",
         "pear/auth_sasl": "1.1.0",
-        "pear/mail_mime": "1.10.9",
+        "pear/mail_mime": "1.10.10",
         "pear/net_smtp": "1.9.2",
         "pear/crypt_gpg": "1.6.4",
         "pear/net_sieve": "1.4.4",
