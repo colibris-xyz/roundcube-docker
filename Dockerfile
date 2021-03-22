@@ -9,6 +9,7 @@ RUN composer.phar --working-dir=/usr/src/roundcubemail/ \
     && composer.phar --working-dir=/usr/src/roundcubemail/ \
       --no-interaction --no-dev --optimize-autoloader --apcu-autoloader update
 
-COPY config/config.custom.inc.php /var/roundcube/config/config.custom.inc.php
-COPY config/config.html5notifier.inc.php /var/roundcube/config/config.html5notifier.inc.php
+COPY config/config.custom.inc.php /var/roundcube/config/
+COPY config/config.managesieve.inc.php /var/roundcube/config/
+COPY config/config.html5notifier.inc.php /var/roundcube/config/
 COPY config/config.carddav.inc.php /usr/src/roundcubemail/plugins/carddav/config.inc.php
