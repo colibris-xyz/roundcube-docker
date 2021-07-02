@@ -20,7 +20,7 @@
         "pear/net_smtp": "1.10.0",
         "pear/crypt_gpg": "1.6.5",
         "pear/net_sieve": "1.4.5",
-        "masterminds/html5": "2.7.4",
+        "masterminds/html5": "2.7.5",
         "endroid/qr-code": "1.6.6",
         "guzzlehttp/guzzle": "6.5.5",
         "roundcube/plugin-installer": "0.2.0",
