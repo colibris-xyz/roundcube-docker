@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "pear/pear-core-minimal": "1.10.10",
+        "pear/pear-core-minimal": "1.10.11",
         "pear/auth_sasl": "1.1.0",
         "pear/mail_mime": "1.10.10",
         "pear/net_smtp": "1.10.0",
