@@ -24,7 +24,7 @@
         "endroid/qr-code": "1.6.6",
         "guzzlehttp/guzzle": "6.5.5",
         "roundcube/plugin-installer": "0.2.0",
-        "roundcube/carddav": "4.2.0",
+        "roundcube/carddav": "4.2.2",
         "johndoh/contextmenu": "3.2.1",
         "kitist/html5_notifier": "0.6.4",
         "texxasrulez/persistent_login": "dev-master"
