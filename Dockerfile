@@ -1,4 +1,4 @@
-FROM roundcube/roundcubemail:1.4.11-fpm-alpine
+FROM roundcube/roundcubemail:1.5.1-fpm-alpine
 
 RUN apk add --no-cache git
 
