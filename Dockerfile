@@ -4,9 +4,8 @@ RUN apk add --no-cache git
 
 COPY composer.json /usr/src/roundcubemail/composer.json
 
-RUN composer.phar --working-dir=/usr/src/roundcubemail/ \
-      --no-interaction --no-dev --optimize-autoloader --apcu-autoloader install \
-    && composer.phar --working-dir=/usr/src/roundcubemail/ \
+#RUN rm /usr/src/roundcubemail/composer.lock \
+RUN /usr/bin/composer --working-dir=/usr/src/roundcubemail/ \
       --no-interaction --no-dev --optimize-autoloader --apcu-autoloader update
 
 COPY config/config.custom.inc.php /var/roundcube/config/
