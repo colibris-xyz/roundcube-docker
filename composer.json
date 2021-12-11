@@ -20,7 +20,7 @@
         "roundcube/rtf-html-php": "2.1",
         "masterminds/html5": "2.7.5",
         "bacon/bacon-qr-code": "2.0.4",
-        "guzzlehttp/guzzle": "7.4.0",
+        "guzzlehttp/guzzle": "7.4.1",
         "paragonie/random_compat": "2.0.20",
         "ralouphie/getallheaders": "2.0.5",
         "symfony/polyfill-php70": "1.20.0",
