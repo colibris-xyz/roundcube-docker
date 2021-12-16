@@ -15,6 +15,7 @@ if (getenv('CARDDAV_PRESET_ID')) {
           'active'       =>  getenv('CARDDAV_PRESET_ACTIVE') === 'true',
           'readonly'     =>  getenv('CARDDAV_PRESET_READONLY') === 'true',
           'refresh_time' =>  getenv('CARDDAV_PRESET_REFRESH_TIME') ?: '00:05:00',
+          'rediscover_mode' => getenv('CARDDAV_PRESET_REDISCOVER_MODE') ?: 'none',
 
           'fixed'        =>  getenv('CARDDAV_PRESET_FIXED') ? explode(',', getenv('CARDDAV_PRESET_FIXED')) : array(),
           'hide'         =>  getenv('CARDDAV_PRESET_HIDE') === 'true'
