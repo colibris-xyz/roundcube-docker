@@ -2,11 +2,11 @@ FROM roundcube/roundcubemail:1.5.2-fpm-alpine
 
 RUN apk add --no-cache git
 
-COPY composer.json /usr/src/roundcubemail/composer.json
+COPY composer.json composer.lock /usr/src/roundcubemail/
 
-#RUN rm /usr/src/roundcubemail/composer.lock \
-RUN /usr/bin/composer --working-dir=/usr/src/roundcubemail/ \
-      --no-interaction --no-dev --optimize-autoloader --apcu-autoloader update
+RUN /usr/bin/composer --working-dir=/usr/src/roundcubemail/ dump-autoload \
+  &&  /usr/bin/composer --working-dir=/usr/src/roundcubemail/ \
+      --no-interaction --no-dev  update
 
 COPY config/config.custom.inc.php /var/roundcube/config/
 COPY config/config.password.inc.php /var/roundcube/config/

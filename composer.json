@@ -30,5 +30,10 @@
         "roundcube/carddav": "4.3.0",
         "johndoh/contextmenu": "3.3",
         "kitist/html5_notifier": "0.6.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "roundcube/plugin-installer": true
+        }
     }
 }
