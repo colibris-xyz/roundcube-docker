@@ -2,7 +2,7 @@ FROM roundcube/roundcubemail:1.5.2-fpm-alpine
 
 RUN apk add --no-cache git
 
-COPY composer.json composer.lock /usr/src/roundcubemail/
+COPY composer.json /usr/src/roundcubemail/
 
 RUN /usr/bin/composer --working-dir=/usr/src/roundcubemail/ dump-autoload \
   && /usr/bin/composer --working-dir=/usr/src/roundcubemail/ require --update-no-dev roundcube/carddav \
