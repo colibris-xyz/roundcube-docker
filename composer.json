@@ -27,7 +27,6 @@
         "symfony/polyfill-php72": "1.25.0",
         "symfony/polyfill-intl-normalizer": "1.25.0",
         "symfony/polyfill-intl-idn": "1.25.0",
-        "roundcube/carddav": "4.3.0",
         "johndoh/contextmenu": "3.3",
         "kitist/html5_notifier": "0.6.4"
     },
