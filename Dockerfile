@@ -4,7 +4,7 @@ RUN apk add --no-cache git
 
 COPY composer.json /usr/src/roundcubemail/
 
-RUN /usr/bin/composer --working-dir=/usr/src/roundcubemail/ dump-autoload \
+RUN rm /usr/src/roundcubemail/composer.json.lock
   && /usr/bin/composer --working-dir=/usr/src/roundcubemail/ require --update-no-dev roundcube/carddav \
   && /usr/bin/composer --working-dir=/usr/src/roundcubemail/ update --no-interaction --no-dev
 
