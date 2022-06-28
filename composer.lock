@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5db910296f2735bd028a29002e3d7d1b",
+    "content-hash": "7a00ab4617be7c0236bbbdf696d6d5fc",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1509,22 +1509,22 @@
         },
         {
             "name": "roundcube/carddav",
-            "version": "v4.3.0",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mstilkerich/rcmcarddav.git",
-                "reference": "d0596c53894e51023e8980b62180afb467d5cd4c"
+                "reference": "0088affd96d312f5447422732a3137d2ca6172f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mstilkerich/rcmcarddav/zipball/d0596c53894e51023e8980b62180afb467d5cd4c",
-                "reference": "d0596c53894e51023e8980b62180afb467d5cd4c",
+                "url": "https://api.github.com/repos/mstilkerich/rcmcarddav/zipball/0088affd96d312f5447422732a3137d2ca6172f1",
+                "reference": "0088affd96d312f5447422732a3137d2ca6172f1",
                 "shasum": ""
             },
             "require": {
                 "mstilkerich/carddavclient": "^1.2.0",
                 "php": ">=7.1.0",
-                "roundcube/plugin-installer": "*",
+                "roundcube/plugin-installer": "^0.3.0",
                 "sabre/uri": "^2.2",
                 "sabre/vobject": "^3.3.5 || ^4.0.0"
             },
@@ -1551,7 +1551,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -1577,9 +1577,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mstilkerich/rcmcarddav/issues",
-                "source": "https://github.com/mstilkerich/rcmcarddav/tree/v4.3.0"
+                "source": "https://github.com/mstilkerich/rcmcarddav/tree/v4.4.2"
             },
-            "time": "2021-11-20T10:58:46+00:00"
+            "time": "2022-06-26T17:11:04+00:00"
         },
         {
             "name": "roundcube/plugin-installer",
@@ -1749,16 +1749,16 @@
         },
         {
             "name": "sabre/vobject",
-            "version": "4.4.1",
+            "version": "4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/vobject.git",
-                "reference": "06feff370141fd3118609f808e86d9315864bf14"
+                "reference": "b8a44ea1610d9b7012e42a7ff6f1cb66f0b757dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/vobject/zipball/06feff370141fd3118609f808e86d9315864bf14",
-                "reference": "06feff370141fd3118609f808e86d9315864bf14",
+                "url": "https://api.github.com/repos/sabre-io/vobject/zipball/b8a44ea1610d9b7012e42a7ff6f1cb66f0b757dd",
+                "reference": "b8a44ea1610d9b7012e42a7ff6f1cb66f0b757dd",
                 "shasum": ""
             },
             "require": {
@@ -1849,7 +1849,7 @@
                 "issues": "https://github.com/sabre-io/vobject/issues",
                 "source": "https://github.com/fruux/sabre-vobject"
             },
-            "time": "2021-12-07T09:45:33+00:00"
+            "time": "2022-06-24T11:36:21+00:00"
         },
         {
             "name": "sabre/xml",
