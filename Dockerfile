@@ -1,6 +1,6 @@
 FROM roundcube/roundcubemail:1.5.3-fpm-alpine
 
-RUN apk add --no-cache git
+RUN apk add --no-cache mailcap
 
 COPY composer.json composer.lock /usr/src/roundcubemail/
 
