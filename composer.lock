@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c66dc5dbab6c2aa45d8f80cac3dca38",
+    "content-hash": "ce75e22c733a81498bd6631bbe7b995d",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -374,16 +374,16 @@
         },
         {
             "name": "johndoh/contextmenu",
-            "version": "3.3",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johndoh/roundcube-contextmenu.git",
-                "reference": "0f2dd2dbb8effb5ea741be5d63eea440fb023244"
+                "reference": "dd13a92a9d8910cce7b2234f45a0b2158214956c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johndoh/roundcube-contextmenu/zipball/0f2dd2dbb8effb5ea741be5d63eea440fb023244",
-                "reference": "0f2dd2dbb8effb5ea741be5d63eea440fb023244",
+                "url": "https://api.github.com/repos/johndoh/roundcube-contextmenu/zipball/dd13a92a9d8910cce7b2234f45a0b2158214956c",
+                "reference": "dd13a92a9d8910cce7b2234f45a0b2158214956c",
                 "shasum": ""
             },
             "require": {
@@ -419,9 +419,9 @@
             ],
             "support": {
                 "issues": "https://github.com/johndoh/roundcube-contextmenu/issues",
-                "source": "https://github.com/johndoh/roundcube-contextmenu/tree/3.3"
+                "source": "https://github.com/johndoh/roundcube-contextmenu/tree/3.3.1"
             },
-            "time": "2021-10-19T15:45:28+00:00"
+            "time": "2022-06-18T07:17:57+00:00"
         },
         {
             "name": "kitist/html5_notifier",

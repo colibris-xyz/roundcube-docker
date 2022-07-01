@@ -21,7 +21,7 @@
         "masterminds/html5": "2.7.5",
         "bacon/bacon-qr-code": "2.0.7",
         "guzzlehttp/guzzle": "6.5.5",
-        "johndoh/contextmenu": "3.3",
+        "johndoh/contextmenu": "3.3.1",
         "kitist/html5_notifier": "0.6.4",
         "paragonie/random_compat": "2.0.20",
         "ralouphie/getallheaders": "2.0.5",
