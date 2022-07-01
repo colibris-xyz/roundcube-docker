@@ -4,9 +4,7 @@ RUN apk add --no-cache git
 
 COPY composer.json composer.lock /usr/src/roundcubemail/
 
-RUN /usr/bin/composer --working-dir=/usr/src/roundcubemail/ dump-autoload \
-  &&  /usr/bin/composer --working-dir=/usr/src/roundcubemail/ \
-      --no-interaction --no-dev  update
+RUN /usr/bin/composer --working-dir=/usr/src/roundcubemail/ install --no-dev
 
 COPY config/config.custom.inc.php /var/roundcube/config/
 COPY config/config.password.inc.php /var/roundcube/config/
