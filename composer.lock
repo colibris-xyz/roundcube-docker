@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea822dbd82232ba0677b6f3b133c8ade",
+    "content-hash": "d5cdd686356e2745de50335110d9e869",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1515,16 +1515,16 @@
         },
         {
             "name": "roundcube/carddav",
-            "version": "v4.4.2",
+            "version": "v4.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mstilkerich/rcmcarddav.git",
-                "reference": "0088affd96d312f5447422732a3137d2ca6172f1"
+                "reference": "032d0290e6b000b5569dd37a359150ed378d6304"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mstilkerich/rcmcarddav/zipball/0088affd96d312f5447422732a3137d2ca6172f1",
-                "reference": "0088affd96d312f5447422732a3137d2ca6172f1",
+                "url": "https://api.github.com/repos/mstilkerich/rcmcarddav/zipball/032d0290e6b000b5569dd37a359150ed378d6304",
+                "reference": "032d0290e6b000b5569dd37a359150ed378d6304",
                 "shasum": ""
             },
             "require": {
@@ -1583,9 +1583,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mstilkerich/rcmcarddav/issues",
-                "source": "https://github.com/mstilkerich/rcmcarddav/tree/v4.4.2"
+                "source": "https://github.com/mstilkerich/rcmcarddav/tree/v4.4.3"
             },
-            "time": "2022-06-26T17:11:04+00:00"
+            "time": "2022-08-15T14:34:20+00:00"
         },
         {
             "name": "roundcube/plugin-installer",
