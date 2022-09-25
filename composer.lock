@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b65e79fb91c9e6c9ff3640c06a94ca1",
+    "content-hash": "c0901a38aef81fa0b8904a5371be2f20",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1041,16 +1041,16 @@
         },
         {
             "name": "pear/net_smtp",
-            "version": "1.10.1",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Net_SMTP.git",
-                "reference": "cfd963dc5cc73b4d64c7769e47dfa0f439dec536"
+                "reference": "51e5997b711fbd1e5a9a075634d4d682168537fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Net_SMTP/zipball/cfd963dc5cc73b4d64c7769e47dfa0f439dec536",
-                "reference": "cfd963dc5cc73b4d64c7769e47dfa0f439dec536",
+                "url": "https://api.github.com/repos/pear/Net_SMTP/zipball/51e5997b711fbd1e5a9a075634d4d682168537fa",
+                "reference": "51e5997b711fbd1e5a9a075634d4d682168537fa",
                 "shasum": ""
             },
             "require": {
@@ -1088,11 +1088,6 @@
                     "name": "Chuck Hagenbuch",
                     "email": "chuck@horde.org",
                     "role": "Lead"
-                },
-                {
-                    "name": "Armin Graefe",
-                    "email": "schengawegga@gmail.com",
-                    "role": "Lead"
                 }
             ],
             "description": "An implementation of the SMTP protocol",
@@ -1106,7 +1101,7 @@
                 "issues": "https://github.com/pear/Net_SMTP/issues",
                 "source": "https://github.com/pear/Net_SMTP"
             },
-            "time": "2022-09-23T21:48:50+00:00"
+            "time": "2021-03-19T18:39:42+00:00"
         },
         {
             "name": "pear/net_socket",
