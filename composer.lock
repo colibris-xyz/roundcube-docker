@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0972fd15b62ec80282799858e201d2cb",
+    "content-hash": "ab720fbc7e09667c7ab41be90555980a",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -601,16 +601,16 @@
         },
         {
             "name": "mstilkerich/carddavclient",
-            "version": "v1.2.2",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mstilkerich/carddavclient.git",
-                "reference": "098ce0aeb622067b4664e905045086aae98b13df"
+                "reference": "1852ba9dc7bb8617c3d1a49409aba4e04dd850a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mstilkerich/carddavclient/zipball/098ce0aeb622067b4664e905045086aae98b13df",
-                "reference": "098ce0aeb622067b4664e905045086aae98b13df",
+                "url": "https://api.github.com/repos/mstilkerich/carddavclient/zipball/1852ba9dc7bb8617c3d1a49409aba4e04dd850a6",
+                "reference": "1852ba9dc7bb8617c3d1a49409aba4e04dd850a6",
                 "shasum": ""
             },
             "require": {
@@ -621,7 +621,7 @@
                 "psr/log": "^1.1",
                 "sabre/uri": "^2.2",
                 "sabre/vobject": "^3.3.5 || ^4.0.0",
-                "sabre/xml": "^2.2"
+                "sabre/xml": "^2.2 || ^3.0.0"
             },
             "require-dev": {
                 "alexeyshockov/guzzle-psalm-plugin": "^0.3.1",
@@ -672,7 +672,7 @@
                 "issues": "https://github.com/mstilkerich/carddavclient/issues",
                 "source": "https://github.com/mstilkerich/carddavclient"
             },
-            "time": "2022-07-30T21:27:15+00:00"
+            "time": "2022-08-22T14:29:56+00:00"
         },
         {
             "name": "pear/auth_sasl",
@@ -1515,21 +1515,22 @@
         },
         {
             "name": "roundcube/carddav",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mstilkerich/rcmcarddav.git",
-                "reference": "032d0290e6b000b5569dd37a359150ed378d6304"
+                "reference": "e6b1aae4b8fd911cf9ee0c9dd4425057b50a459e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mstilkerich/rcmcarddav/zipball/032d0290e6b000b5569dd37a359150ed378d6304",
-                "reference": "032d0290e6b000b5569dd37a359150ed378d6304",
+                "url": "https://api.github.com/repos/mstilkerich/rcmcarddav/zipball/e6b1aae4b8fd911cf9ee0c9dd4425057b50a459e",
+                "reference": "e6b1aae4b8fd911cf9ee0c9dd4425057b50a459e",
                 "shasum": ""
             },
             "require": {
                 "mstilkerich/carddavclient": "^1.2.0",
                 "php": ">=7.1.0",
+                "psr/log": "^1.0 || ^2.0 || ^3.0",
                 "roundcube/plugin-installer": "^0.3.0",
                 "sabre/uri": "^2.2",
                 "sabre/vobject": "^3.3.5 || ^4.0.0"
@@ -1541,8 +1542,7 @@
                 "phpunit/phpcov": "*",
                 "phpunit/phpunit": "~9",
                 "psalm/plugin-phpunit": "^0.15.0",
-                "vimeo/psalm": ">= 3.11",
-                "wa72/simplelogger": "^1.1"
+                "vimeo/psalm": ">= 3.11"
             },
             "type": "roundcube-plugin",
             "extra": {
@@ -1583,9 +1583,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mstilkerich/rcmcarddav/issues",
-                "source": "https://github.com/mstilkerich/rcmcarddav/tree/v4.4.3"
+                "source": "https://github.com/mstilkerich/rcmcarddav/tree/v4.4.4"
             },
-            "time": "2022-08-15T14:34:20+00:00"
+            "time": "2022-10-22T10:00:42+00:00"
         },
         {
             "name": "roundcube/plugin-installer",
@@ -1698,25 +1698,25 @@
         },
         {
             "name": "sabre/uri",
-            "version": "2.2.2",
+            "version": "2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/uri.git",
-                "reference": "7cb0f489578afad5006e85cd60f18ff33f2d440d"
+                "reference": "eceb4a1b8b680b45e215574222d6ca00be541970"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/uri/zipball/7cb0f489578afad5006e85cd60f18ff33f2d440d",
-                "reference": "7cb0f489578afad5006e85cd60f18ff33f2d440d",
+                "url": "https://api.github.com/repos/sabre-io/uri/zipball/eceb4a1b8b680b45e215574222d6ca00be541970",
+                "reference": "eceb4a1b8b680b45e215574222d6ca00be541970",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2.17.1",
-                "phpstan/phpstan": "^0.12",
-                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.0"
+                "friendsofphp/php-cs-fixer": "^3.9",
+                "phpstan/phpstan": "^1.8",
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "autoload": {
@@ -1751,20 +1751,20 @@
                 "issues": "https://github.com/sabre-io/uri/issues",
                 "source": "https://github.com/fruux/sabre-uri"
             },
-            "time": "2021-11-04T09:29:58+00:00"
+            "time": "2022-09-19T11:58:52+00:00"
         },
         {
             "name": "sabre/vobject",
-            "version": "4.4.3",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/vobject.git",
-                "reference": "2a043b994fa8d8a655c3d50d73c1ad443d31d677"
+                "reference": "1f836740c88bac483f3b572a332eb8fd1cd04981"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/vobject/zipball/2a043b994fa8d8a655c3d50d73c1ad443d31d677",
-                "reference": "2a043b994fa8d8a655c3d50d73c1ad443d31d677",
+                "url": "https://api.github.com/repos/sabre-io/vobject/zipball/1f836740c88bac483f3b572a332eb8fd1cd04981",
+                "reference": "1f836740c88bac483f3b572a332eb8fd1cd04981",
                 "shasum": ""
             },
             "require": {
@@ -1855,7 +1855,7 @@
                 "issues": "https://github.com/sabre-io/vobject/issues",
                 "source": "https://github.com/fruux/sabre-vobject"
             },
-            "time": "2022-07-15T15:21:17+00:00"
+            "time": "2022-10-09T10:06:31+00:00"
         },
         {
             "name": "sabre/xml",
