@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab720fbc7e09667c7ab41be90555980a",
+    "content-hash": "e099787e94cd07f51f575f5c88b30629",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -965,16 +965,16 @@
         },
         {
             "name": "pear/net_sieve",
-            "version": "1.4.5",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Net_Sieve.git",
-                "reference": "94763e0fc6f39a9ebcd01e5e7a8250292804a50e"
+                "reference": "ea79747d73e6d4017716d9bab2e760f7df3249d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Net_Sieve/zipball/94763e0fc6f39a9ebcd01e5e7a8250292804a50e",
-                "reference": "94763e0fc6f39a9ebcd01e5e7a8250292804a50e",
+                "url": "https://api.github.com/repos/pear/Net_Sieve/zipball/ea79747d73e6d4017716d9bab2e760f7df3249d7",
+                "reference": "ea79747d73e6d4017716d9bab2e760f7df3249d7",
                 "shasum": ""
             },
             "require": {
@@ -1029,7 +1029,7 @@
                 "issues": "https://pear.php.net/bugs/search.php?cmd=display&package_name[]=Net_Sieve",
                 "source": "https://github.com/pear/Net_Sieve"
             },
-            "time": "2021-04-24T13:15:04+00:00"
+            "time": "2022-12-02T17:19:07+00:00"
         },
         {
             "name": "pear/net_smtp",
