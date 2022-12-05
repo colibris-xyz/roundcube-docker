@@ -15,7 +15,7 @@
         "pear/mail_mime": "1.10.11",
         "pear/net_smtp": "1.10.0",
         "pear/crypt_gpg": "1.6.7",
-        "pear/net_sieve": "1.4.5",
+        "pear/net_sieve": "1.4.6",
         "roundcube/plugin-installer": "0.3.2",
         "roundcube/rtf-html-php": "2.1",
         "masterminds/html5": "2.7.6",
