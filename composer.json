@@ -24,7 +24,7 @@
         "johndoh/contextmenu": "3.3.1",
         "kitist/html5_notifier": "0.6.4",
         "ralouphie/getallheaders": "3.0.3",
-        "roundcube/carddav": "4.4.4",
+        "roundcube/carddav": "4.4.5",
         "symfony/deprecation-contracts": "2.5.2"
     },
     "config": {
