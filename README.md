@@ -1,5 +1,6 @@
-[![GitHub release](https://img.shields.io/github/v/release/colibris-xyz/roundcube-docker.svg?style=flat)](https://github.com/colibris-xyz/roundcube-docker/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/colibris-xyz/roundcube-docker)](https://github.com/colibris-xyz/roundcube-docker/blob/main/LICENSE)
+[![Releases](https://img.shields.io/gitlab/v/release/colibris-xyz/roundcube-docker?gitlab_url=https%3A%2F%2Fframagit.org&include_prereleases&sort=semver)](https://framagit.org/colibris-xyz/roundcube-docker/-/releases)
+[![Build status](https://img.shields.io/gitlab/pipeline-status/colibris-xyz/roundcube-docker?branch=main&gitlab_url=https%3A%2F%2Fframagit.org)](https://framagit.org/colibris-xyz/roundcube-docker/-/pipelines)
+[![License](https://img.shields.io/gitlab/license/colibris-xyz/roundcube-docker?gitlab_url=https%3A%2F%2Fframagit.org)](https://framagit.org/colibris-xyz/roundcube-docker/-/blob/main/LICENSE)
 
 # Roundcube Docker image for colibris.xyz
 
