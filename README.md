@@ -1,4 +1,4 @@
-[![Releases](https://img.shields.io/gitlab/v/release/colibris-xyz/roundcube-docker?gitlab_url=https%3A%2F%2Fframagit.org&include_prereleases&sort=semver)](https://framagit.org/colibris-xyz/roundcube-docker/-/releases)
+[![Releases](https://img.shields.io/gitlab/v/release/colibris-xyz/roundcube-docker?gitlab_url=https%3A%2F%2Fframagit.org)](https://framagit.org/colibris-xyz/roundcube-docker/-/releases)
 [![Build status](https://img.shields.io/gitlab/pipeline-status/colibris-xyz/roundcube-docker?branch=main&gitlab_url=https%3A%2F%2Fframagit.org)](https://framagit.org/colibris-xyz/roundcube-docker/-/pipelines)
 [![License](https://img.shields.io/gitlab/license/colibris-xyz/roundcube-docker?gitlab_url=https%3A%2F%2Fframagit.org)](https://framagit.org/colibris-xyz/roundcube-docker/-/blob/main/LICENSE)
 
