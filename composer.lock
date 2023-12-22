@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7f7712db2697ecb1fa578159e6bc592",
+    "content-hash": "b58b8cf0b38725c1a97bc56b37f6411b",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -678,20 +678,17 @@
         },
         {
             "name": "pear/auth_sasl",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Auth_SASL.git",
-                "reference": "db1ead3dc0bf986d2bab0dbc04d114800cf91dee"
+                "reference": "ebf4c2c5ea190b283229f8443b866ccf34422471"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Auth_SASL/zipball/db1ead3dc0bf986d2bab0dbc04d114800cf91dee",
-                "reference": "db1ead3dc0bf986d2bab0dbc04d114800cf91dee",
+                "url": "https://api.github.com/repos/pear/Auth_SASL/zipball/ebf4c2c5ea190b283229f8443b866ccf34422471",
+                "reference": "ebf4c2c5ea190b283229f8443b866ccf34422471",
                 "shasum": ""
-            },
-            "require": {
-                "pear/pear_exception": "@stable"
             },
             "require-dev": {
                 "phpunit/phpunit": "@stable"
@@ -707,7 +704,7 @@
                 "./"
             ],
             "license": [
-                "BSD"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -727,11 +724,12 @@
                 }
             ],
             "description": "Abstraction of various SASL mechanism responses",
+            "homepage": "http://pear.php.net/package/Auth_SASL",
             "support": {
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Auth_SASL",
                 "source": "https://github.com/pear/Auth_SASL"
             },
-            "time": "2017-03-07T14:37:05+00:00"
+            "time": "2023-12-21T21:52:08+00:00"
         },
         {
             "name": "pear/console_commandline",
