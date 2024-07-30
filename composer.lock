@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44156ccccd50e921a8c4bd5ca1863556",
+    "content-hash": "6dca44c1040189a53ea6a0543f1395ec",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1595,23 +1595,31 @@
         },
         {
             "name": "roundcube/plugin-installer",
-            "version": "0.3.2",
+            "version": "0.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roundcube/plugin-installer.git",
-                "reference": "c4335e20b86cfe3a184ccf24d675c6a0338a372a"
+                "reference": "f77c307b7d4e4000cb423cc3fac69fb1a9187aad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roundcube/plugin-installer/zipball/c4335e20b86cfe3a184ccf24d675c6a0338a372a",
-                "reference": "c4335e20b86cfe3a184ccf24d675c6a0338a372a",
+                "url": "https://api.github.com/repos/roundcube/plugin-installer/zipball/f77c307b7d4e4000cb423cc3fac69fb1a9187aad",
+                "reference": "f77c307b7d4e4000cb423cc3fac69fb1a9187aad",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0 || ^2.0"
+                "composer-plugin-api": "^2.1",
+                "php": ">=7.3 <8.4",
+                "roundcube/roundcubemail": "*"
             },
             "require-dev": {
-                "composer/composer": "*"
+                "composer/composer": "^2.1",
+                "ergebnis/composer-normalize": "^2.13",
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^1.2",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-strict-rules": "^1.3"
             },
             "type": "composer-plugin",
             "extra": {
@@ -1620,13 +1628,13 @@
                 ]
             },
             "autoload": {
-                "psr-0": {
-                    "Roundcube\\Composer": "src/"
+                "psr-4": {
+                    "Roundcube\\Composer\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "GPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -1645,9 +1653,9 @@
             "description": "A composer-installer for Roundcube plugins and skins.",
             "support": {
                 "issues": "https://github.com/roundcube/plugin-installer/issues",
-                "source": "https://github.com/roundcube/plugin-installer/tree/0.3.2"
+                "source": "https://github.com/roundcube/plugin-installer/tree/0.3.7"
             },
-            "time": "2022-06-24T09:08:18+00:00"
+            "time": "2024-05-16T18:36:45+00:00"
         },
         {
             "name": "roundcube/rtf-html-php",
