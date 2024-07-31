@@ -20,7 +20,7 @@
         "roundcube/rtf-html-php": "2.2",
         "masterminds/html5": "2.8.1",
         "bacon/bacon-qr-code": "2.0.8",
-        "guzzlehttp/guzzle": "7.8.1",
+        "guzzlehttp/guzzle": "7.9.2",
         "johndoh/contextmenu": "3.3.1",
         "kitist/html5_notifier": "0.6.4",
         "ralouphie/getallheaders": "3.0.3",
