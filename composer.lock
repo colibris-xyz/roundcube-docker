@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8358d242f154b28f3f52a2d4a236db0f",
+    "content-hash": "bc8c0ebd84125cc8b86415ba3a1b61d0",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -965,24 +965,25 @@
         },
         {
             "name": "pear/net_sieve",
-            "version": "1.4.6",
+            "version": "1.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Net_Sieve.git",
-                "reference": "ea79747d73e6d4017716d9bab2e760f7df3249d7"
+                "reference": "31b3ef38d75e681d5589c5ed2267314b79c1dfe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Net_Sieve/zipball/ea79747d73e6d4017716d9bab2e760f7df3249d7",
-                "reference": "ea79747d73e6d4017716d9bab2e760f7df3249d7",
+                "url": "https://api.github.com/repos/pear/Net_Sieve/zipball/31b3ef38d75e681d5589c5ed2267314b79c1dfe8",
+                "reference": "31b3ef38d75e681d5589c5ed2267314b79c1dfe8",
                 "shasum": ""
             },
             "require": {
                 "pear/net_socket": "~1.2",
-                "pear/pear-core-minimal": "~1.10"
+                "pear/pear-core-minimal": "~1.10",
+                "php": ">=5.6.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7.21 || ^6 || ^7"
+                "phpunit/phpunit": "^4.8.35 || ^5.7.21 || ^6 || ^7 || ^9"
             },
             "suggest": {
                 "pear/auth_sasl": "Install optionally via your project's composer.json"
@@ -1029,7 +1030,7 @@
                 "issues": "https://pear.php.net/bugs/search.php?cmd=display&package_name[]=Net_Sieve",
                 "source": "https://github.com/pear/Net_Sieve"
             },
-            "time": "2022-12-02T17:19:07+00:00"
+            "time": "2024-04-08T07:54:10+00:00"
         },
         {
             "name": "pear/net_smtp",
