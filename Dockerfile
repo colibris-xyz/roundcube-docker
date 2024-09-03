@@ -1,4 +1,4 @@
-FROM roundcube/roundcubemail:1.6.6-fpm-alpine
+FROM roundcube/roundcubemail:1.6.9-fpm-alpine
 
 RUN apk add --no-cache mailcap
 
