@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aae91e1a7f42c9a00029ce920dbc609f",
+    "content-hash": "d54c9dac7c10aea83636257320298c31",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1597,21 +1597,21 @@
         },
         {
             "name": "roundcube/plugin-installer",
-            "version": "0.3.8",
+            "version": "0.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roundcube/plugin-installer.git",
-                "reference": "4547fee8077db1ec4cbf6d55ef9d6c4e116f69d0"
+                "reference": "763848159e1f5ecd984852b1c4eb1e4a8e960cfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roundcube/plugin-installer/zipball/4547fee8077db1ec4cbf6d55ef9d6c4e116f69d0",
-                "reference": "4547fee8077db1ec4cbf6d55ef9d6c4e116f69d0",
+                "url": "https://api.github.com/repos/roundcube/plugin-installer/zipball/763848159e1f5ecd984852b1c4eb1e4a8e960cfe",
+                "reference": "763848159e1f5ecd984852b1c4eb1e4a8e960cfe",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.1",
-                "php": ">=7.3 <=8.4",
+                "php": ">=7.3 <8.5",
                 "roundcube/roundcubemail": "*"
             },
             "require-dev": {
@@ -1655,9 +1655,9 @@
             "description": "A composer-installer for Roundcube plugins and skins.",
             "support": {
                 "issues": "https://github.com/roundcube/plugin-installer/issues",
-                "source": "https://github.com/roundcube/plugin-installer/tree/0.3.8"
+                "source": "https://github.com/roundcube/plugin-installer/tree/0.3.9"
             },
-            "time": "2024-08-21T09:25:23+00:00"
+            "time": "2024-11-24T10:52:52+00:00"
         },
         {
             "name": "roundcube/rtf-html-php",
@@ -2017,12 +2017,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.3.0"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
