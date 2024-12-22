@@ -19,7 +19,7 @@
         "roundcube/plugin-installer": "0.3.9",
         "roundcube/rtf-html-php": "2.2",
         "masterminds/html5": "2.9.0",
-        "bacon/bacon-qr-code": "2.0.8",
+        "bacon/bacon-qr-code": "3.0.1",
         "guzzlehttp/guzzle": "7.9.2",
         "johndoh/contextmenu": "3.3.1",
         "kitist/html5_notifier": "0.6.4",
