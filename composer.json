@@ -10,22 +10,22 @@
     ],
     "require": {
         "php": ">=7.3.0",
-        "pear/pear-core-minimal": "1.10.16",
+        "pear/pear-core-minimal": "1.10.18",
         "pear/auth_sasl": "1.2.0",
         "pear/mail_mime": "1.10.12",
-        "pear/net_smtp": "1.12.1",
-        "pear/crypt_gpg": "1.6.9",
-        "pear/net_sieve": "1.4.7",
-        "roundcube/plugin-installer": "0.3.9",
+        "pear/net_smtp": "1.12.2",
+        "pear/crypt_gpg": "1.6.11",
+        "pear/net_sieve": "1.4.8",
+        "roundcube/plugin-installer": "0.3.11",
         "roundcube/rtf-html-php": "2.2",
-        "masterminds/html5": "2.9.0",
-        "bacon/bacon-qr-code": "3.0.1",
-        "guzzlehttp/guzzle": "7.9.2",
+        "masterminds/html5": "2.10.0",
+        "bacon/bacon-qr-code": "3.0.3",
+        "guzzlehttp/guzzle": "7.9.3",
         "johndoh/contextmenu": "3.3.1",
         "kitist/html5_notifier": "0.6.4",
         "ralouphie/getallheaders": "3.0.3",
-        "roundcube/carddav": "4.4.6",
-        "symfony/deprecation-contracts": "3.5.1"
+        "roundcube/carddav": "5.1.2",
+        "symfony/deprecation-contracts": "3.6.0"
     },
     "config": {
         "allow-plugins": {
