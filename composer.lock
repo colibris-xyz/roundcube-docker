@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ff0832b64a2a636f7a1121e1d3623e2",
+    "content-hash": "68a1d26693de7ac4cfee20b96fd58108",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -742,67 +742,6 @@
             "time": "2023-12-21T21:52:08+00:00"
         },
         {
-            "name": "pear/console_commandline",
-            "version": "v1.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pear/Console_CommandLine.git",
-                "reference": "611c5bff2e47ec5a184748cb5fedc2869098ff28"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pear/Console_CommandLine/zipball/611c5bff2e47ec5a184748cb5fedc2869098ff28",
-                "reference": "611c5bff2e47ec5a184748cb5fedc2869098ff28",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "ext-xml": "*",
-                "pear/pear_exception": "^1.0.0",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Console": "./"
-                },
-                "exclude-from-classmap": [
-                    "tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                ""
-            ],
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Richard Quadling",
-                    "email": "rquadling@gmail.com"
-                },
-                {
-                    "name": "David Jean Louis",
-                    "email": "izimobil@gmail.com"
-                }
-            ],
-            "description": "A full featured command line options and arguments parser.",
-            "homepage": "https://github.com/pear/Console_CommandLine",
-            "keywords": [
-                "console"
-            ],
-            "support": {
-                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Console_CommandLine",
-                "source": "https://github.com/pear/Console_CommandLine"
-            },
-            "abandoned": true,
-            "time": "2023-04-02T18:49:53+00:00"
-        },
-        {
             "name": "pear/console_getopt",
             "version": "v1.4.3",
             "source": {
@@ -855,23 +794,22 @@
         },
         {
             "name": "pear/crypt_gpg",
-            "version": "v1.6.11",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Crypt_GPG.git",
-                "reference": "6d307aae8b38ee35d0a2297510bd2356d1452c2b"
+                "reference": "236aba44a45ce73d838377fe095169af4f4f0858"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Crypt_GPG/zipball/6d307aae8b38ee35d0a2297510bd2356d1452c2b",
-                "reference": "6d307aae8b38ee35d0a2297510bd2356d1452c2b",
+                "url": "https://api.github.com/repos/pear/Crypt_GPG/zipball/236aba44a45ce73d838377fe095169af4f4f0858",
+                "reference": "236aba44a45ce73d838377fe095169af4f4f0858",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "pear/console_commandline": "*",
                 "pear/pear_exception": "*",
-                "php": ">=5.4.8"
+                "php": ">=5.6"
             },
             "require-dev": {
                 "phpstan/phpstan": "^1.2",
@@ -922,7 +860,7 @@
                 "issues": "https://pear.php.net/bugs/search.php?cmd=display&package_name[]=Crypt_GPG",
                 "source": "https://github.com/pear/Crypt_GPG"
             },
-            "time": "2025-05-22T11:41:53+00:00"
+            "time": "2026-05-21T08:48:51+00:00"
         },
         {
             "name": "pear/mail_mime",
