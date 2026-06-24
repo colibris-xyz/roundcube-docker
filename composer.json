@@ -18,7 +18,7 @@
         "pear/net_sieve": "1.4.8",
         "roundcube/plugin-installer": "0.3.11",
         "roundcube/rtf-html-php": "2.2",
-        "masterminds/html5": "2.10.0",
+        "masterminds/html5": "2.10.1",
         "bacon/bacon-qr-code": "3.0.3",
         "guzzlehttp/guzzle": "7.10.0",
         "johndoh/contextmenu": "3.3.1",
