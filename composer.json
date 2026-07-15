@@ -25,7 +25,8 @@
         "kitist/html5_notifier": "0.6.4",
         "ralouphie/getallheaders": "3.0.3",
         "roundcube/carddav": "5.1.3",
-        "symfony/deprecation-contracts": "3.7.1"
+        "symfony/deprecation-contracts": "3.7.1",
+        "symfony/polyfill-php85": "1.38.1"
     },
     "config": {
         "allow-plugins": {
