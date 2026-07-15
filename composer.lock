@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e332fd0d065abf09228ea7aa8a5c6a7e",
+    "content-hash": "32b5f1278a665e314de5d680b93170af",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1473,16 +1473,16 @@
         },
         {
             "name": "roundcube/carddav",
-            "version": "v5.1.2",
+            "version": "v5.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mstilkerich/rcmcarddav.git",
-                "reference": "73685a4e3f6fe170a2e97d6f74fde7cb612663e9"
+                "reference": "1cebb53dac049a5184f83cfe149e070f500509a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mstilkerich/rcmcarddav/zipball/73685a4e3f6fe170a2e97d6f74fde7cb612663e9",
-                "reference": "73685a4e3f6fe170a2e97d6f74fde7cb612663e9",
+                "url": "https://api.github.com/repos/mstilkerich/rcmcarddav/zipball/1cebb53dac049a5184f83cfe149e070f500509a6",
+                "reference": "1cebb53dac049a5184f83cfe149e070f500509a6",
                 "shasum": ""
             },
             "require": {
@@ -1551,9 +1551,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mstilkerich/rcmcarddav/issues",
-                "source": "https://github.com/mstilkerich/rcmcarddav/tree/v5.1.2"
+                "source": "https://github.com/mstilkerich/rcmcarddav/tree/v5.1.3"
             },
-            "time": "2025-09-30T16:04:29+00:00"
+            "time": "2026-04-03T06:54:29+00:00"
         },
         {
             "name": "roundcube/plugin-installer",
